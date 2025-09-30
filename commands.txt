@@ -19,6 +19,3 @@ kubectl port-forward svc/myminio-console 9443 -n minio-tenant
 
 
 
-kubectl port-forward svc/minio-service 9000:9000 -n minio-tenant
-
-kubectl port-forward svc/minio-service 9443:9443 -n minio-tenant
